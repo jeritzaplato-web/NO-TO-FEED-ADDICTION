@@ -1,0 +1,376 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400;6..96,700&family=Lilita+One&display=swap');
+
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+body {
+    
+    background-color: #F8F9FA; 
+    color: #111111; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bold-title {
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #111111;
+    letter-spacing: 1px;
+}
+
+.bold-title-yellow {
+    font-weight: 900;
+    font-size: 2.3rem;
+    color: #FFD700; 
+    background-color: #111111;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.bold-title-blue {
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #002BB8; 
+}
+
+.bold-title-brown {
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #9E7B56; 
+    margin: 0;
+}
+
+
+.sub-title-red {
+    background-color: #FF4D4D; 
+    color: #FFFFFF;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sub-title-blue {
+    background-color: #002BB8;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sub-title-brown {
+    background-color: #9E7B56; 
+    color: #FFFFFF;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+.thin-text {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222222;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+.site-header {
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #111111;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+
+.top-nav a {
+    display: inline-block;
+    background-color: #002BB8; 
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.top-nav a:hover {
+    transform: translateY(-3px);
+    background-color: #FF4D4D; 
+}
+
+.top-nav a.active {
+    background-color: #FF4D4D; 
+}
+
+
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.hero-section {
+    margin-bottom: 30px;
+}
+
+
+.video-box {
+    width: 100%;
+    height: 280px;
+    background: linear-gradient(135deg, #002BB8, #FF4D4D);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.cards-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-card {
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 8px solid #111111;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.card-red { border-left-color: #FF4D4D; }
+.card-brown { border-left-color: #9E7B56; }
+.card-blue { border-left-color: #002BB8; }
+.card-yellow { border-left-color: #FFD700; background-color: #FFFFF0; }
+
+.card-title {
+    font-weight: 900;
+    color: #FF4D4D;
+    margin-top: 0;
+}
+
+.card-subtitle {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+
+
+.wiki-header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 2px solid #9E7B56;
+}
+
+.sub-header-text {
+    margin: 5px 0 0 0;
+    color: #666666;
+}
+
+.wiki-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.wiki-card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.center-emoji {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.open-book-container {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    border: 3px solid #111111;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.book-pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px dashed #DDD;
+}
+
+.sources-list {
+    padding-left: 20px;
+}
+
+.sources-list li {
+    margin-bottom: 20px;
+}
+
+.sources-list a {
+    color: #002BB8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sources-list a:hover {
+    text-decoration: underline;
+}
+
+.explanation-card {
+    margin-top: 30px;
+    background-color: #FFFFA6; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+.interactive-section {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.clocks, .people-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.large-emoji {
+    font-size: 3.5rem;
+}
+
+
+.wiggle-emoji {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.wiggle-emoji:hover {
+    animation: wiebelen 0.8s infinite alternate ease-in-out;
+}
+
+@keyframes wiebelen {
+    0% { transform: rotate(-12deg) scale(1.1); }
+    100% { transform: rotate(12deg) scale(1.1); }
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #EFEFEF;
+}
+
+
+.people-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.people-animation img {
+    display: block;
+    width: 180px;
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.encyclopedie-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.encyclopedie-logo img {
+    display: inline-block;
+    width: 35px;
+    height: 42px;
+    object-fit: contain;
+    animation: boeken-bewegen 3s ease-in-out infinite alternate;
+}
+
+
+.bold-title,
+.bold-title-yellow,
+.bold-title-blue,
+.bold-title-brown {
+    font-family: 'Lilita One', sans-serif;
+}
+
+
+@keyframes boeken-bewegen {
+    0% {
+        transform: translateX(-4px) rotate(-3deg);
+    }
+
+    100% {
+        transform: translateX(4px) rotate(3deg);
+    }
+}
